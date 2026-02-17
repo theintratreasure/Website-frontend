@@ -6,7 +6,7 @@ import { Download, Smartphone, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const popupImage =
-  "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?auto=format&fit=crop&w=1400&q=80";
+  "https://plus.unsplash.com/premium_vector-1732296053749-4f94462c1933?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXBwfGVufDB8MHwwfHx8MA%3D%3D";
 
 type DeviceType = "android" | "ios" | "other";
 type Platform = "android" | "ios";
@@ -132,13 +132,13 @@ export default function AppDownloadPopup() {
             <motion.div
               role="dialog"
               aria-modal="true"
-              className="relative w-full max-w-2xl overflow-hidden rounded-[28px] border border-[var(--card-border)] bg-[var(--card-bg)] shadow-[0_34px_80px_-48px_rgba(0,0,0,0.7)]"
+              className="relative w-full max-w-3xl overflow-hidden rounded-[30px] border border-[var(--card-border)] bg-[var(--card-bg)] shadow-[0_40px_90px_-52px_rgba(0,0,0,0.78)]"
               initial={{ opacity: 0, y: 24, scale: 0.98 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 18, scale: 0.98 }}
               transition={{ duration: 0.25, ease: "easeOut" }}
             >
-              <div className="relative h-40 sm:h-48">
+              <div className="relative h-36 sm:h-44">
                 <Image src={popupImage} alt="" fill sizes="100vw" className="object-cover" priority />
                 <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(0,0,0,0.55)_0%,rgba(0,0,0,0.25)_55%,rgba(0,0,0,0.5)_100%)]" />
               </div>
@@ -152,76 +152,107 @@ export default function AppDownloadPopup() {
                 <X size={16} />
               </button>
 
-              <div className="p-5 sm:p-7">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--secondary)]">
-                  Download App
-                </p>
-                <h3 className="mt-2 text-2xl font-black text-[var(--foreground)] sm:text-3xl">
-                  Get ALS Trades on your device
-                </h3>
-                <p className="mt-3 text-sm text-[var(--text-muted)] sm:text-base">
-                  Android users can download APK instantly. iOS app is coming soon.
-                </p>
+              <div className="relative grid gap-5 p-5 sm:grid-cols-[1.2fr_1fr] sm:gap-6 sm:p-7">
+                <div className="absolute -left-12 -top-14 h-36 w-36 rounded-full bg-[var(--primary)]/12 blur-2xl" />
+                <div className="absolute -bottom-14 right-8 h-36 w-36 rounded-full bg-[var(--secondary)]/12 blur-2xl" />
 
-                {deviceType === "other" ? (
-                  <div className="mt-5 inline-flex rounded-xl border border-[var(--card-border)] bg-[var(--hover-bg)] p-1">
+                <div className="relative">
+                  <p className="inline-flex items-center rounded-full border border-[var(--card-border)] bg-[var(--hover-bg)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--secondary)]">
+                    App Download
+                  </p>
+                  <h3 className="mt-3 text-2xl font-black leading-tight text-[var(--foreground)] sm:text-3xl">
+                    Trade faster on
+                    <span className="block bg-[linear-gradient(90deg,var(--secondary),var(--primary))] bg-clip-text text-transparent">
+                      ALS Mobile
+                    </span>
+                  </h3>
+                  <p className="mt-3 text-sm text-[var(--text-muted)] sm:text-base">
+                    Device based smart download. Android gets APK instantly, iOS gets release update status.
+                  </p>
+
+                  <div className="mt-5 flex flex-wrap gap-3">
+                    <button
+                      type="button"
+                      onClick={handleDownload}
+                      className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-6 py-3 text-sm font-semibold text-[var(--card-bg)]"
+                    >
+                      {deviceType === "android"
+                        ? "Download for Android"
+                        : deviceType === "ios"
+                          ? "Download for iOS"
+                          : selectedPlatform === "android"
+                            ? "Download for Android"
+                            : "Download for iOS"}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={close}
+                      className="rounded-xl border border-[var(--card-border)] px-6 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)]"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+
+                <div className="relative rounded-2xl border border-[var(--card-border)] bg-[var(--hover-bg)] p-4">
+                  <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--text-muted)]">
+                    Platform
+                  </p>
+
+                  <div className="mt-3 space-y-2">
                     <button
                       type="button"
                       onClick={() => setSelectedPlatform("android")}
+                      disabled={deviceType !== "other"}
                       className={[
-                        "rounded-lg px-4 py-2 text-sm font-semibold transition-colors",
-                        selectedPlatform === "android"
-                          ? "bg-[var(--card-bg)] text-[var(--foreground)]"
-                          : "text-[var(--text-muted)]",
+                        "flex w-full items-center justify-between rounded-xl border px-3 py-3 text-left text-sm transition",
+                        (deviceType === "android" || (deviceType === "other" && selectedPlatform === "android"))
+                          ? "border-[var(--secondary)] bg-[var(--card-bg)] text-[var(--foreground)]"
+                          : "border-[var(--card-border)] bg-[var(--card-bg)]/60 text-[var(--text-muted)]",
+                        deviceType !== "other" ? "cursor-default opacity-90" : "hover:border-[var(--secondary)]/50",
                       ].join(" ")}
                     >
                       <span className="inline-flex items-center gap-2">
-                        <Smartphone size={14} />
+                        <Smartphone size={15} />
                         Android
                       </span>
+                      <span className="text-xs font-semibold text-[var(--secondary)]">APK Ready</span>
                     </button>
+
                     <button
                       type="button"
                       onClick={() => setSelectedPlatform("ios")}
+                      disabled={deviceType !== "other"}
                       className={[
-                        "rounded-lg px-4 py-2 text-sm font-semibold transition-colors",
-                        selectedPlatform === "ios"
-                          ? "bg-[var(--card-bg)] text-[var(--foreground)]"
-                          : "text-[var(--text-muted)]",
+                        "flex w-full items-center justify-between rounded-xl border px-3 py-3 text-left text-sm transition",
+                        (deviceType === "ios" || (deviceType === "other" && selectedPlatform === "ios"))
+                          ? "border-[var(--secondary)] bg-[var(--card-bg)] text-[var(--foreground)]"
+                          : "border-[var(--card-border)] bg-[var(--card-bg)]/60 text-[var(--text-muted)]",
+                        deviceType !== "other" ? "cursor-default opacity-90" : "hover:border-[var(--secondary)]/50",
                       ].join(" ")}
                     >
                       <span className="inline-flex items-center gap-2">
-                        <Smartphone size={14} />
+                        <Smartphone size={15} />
                         iOS
                       </span>
+                      <span className="text-xs font-semibold text-[var(--text-muted)]">Coming Soon</span>
                     </button>
                   </div>
-                ) : null}
 
-                <div className="mt-6 flex flex-wrap gap-3">
-                  <button
-                    type="button"
-                    onClick={handleDownload}
-                    className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-6 py-3 text-sm font-semibold text-[var(--card-bg)]"
-                  >
+                  <p className="mt-3 text-xs text-[var(--text-muted)]">
                     {deviceType === "android"
-                      ? "Download for Android"
+                      ? "Android device detected."
                       : deviceType === "ios"
-                        ? "Download for iOS"
-                        : selectedPlatform === "android"
-                          ? "Download for Android"
-                          : "Download for iOS"}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={close}
-                    className="rounded-xl border border-[var(--card-border)] px-6 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)]"
-                  >
-                    Close
-                  </button>
+                        ? "iOS device detected."
+                        : "Select your platform."}
+                  </p>
                 </div>
 
-                {feedback ? <p className="mt-3 text-sm text-[var(--text-muted)]">{feedback}</p> : null}
+                {feedback ? (
+                  <p className="relative sm:col-span-2 rounded-lg border border-[var(--card-border)] bg-[var(--hover-bg)] px-3 py-2 text-sm text-[var(--text-muted)]">
+                    {feedback}
+                  </p>
+                ) : null}
               </div>
             </motion.div>
           </motion.div>
