@@ -7,7 +7,10 @@ import GlobalStructuredData from "./components/seo/GlobalStructuredData";
 import {
   DEFAULT_KEYWORD_COUNT,
   DEFAULT_OG_IMAGE_PATH,
-  SITE_LOGO_PATH,
+  SITE_APPLE_ICON_PATH,
+  SITE_FAVICON_16_PATH,
+  SITE_FAVICON_32_PATH,
+  SITE_FAVICON_PATH,
   SITE_NAME,
   SITE_URL,
   buildKeywordSet,
@@ -46,9 +49,13 @@ export const metadata: Metadata = {
     DEFAULT_KEYWORD_COUNT,
   ),
   icons: {
-    icon: SITE_LOGO_PATH,
-    apple: SITE_LOGO_PATH,
-    shortcut: SITE_LOGO_PATH,
+    icon: [
+      { url: SITE_FAVICON_PATH, sizes: "any" },
+      { url: SITE_FAVICON_32_PATH, type: "image/png", sizes: "32x32" },
+      { url: SITE_FAVICON_16_PATH, type: "image/png", sizes: "16x16" },
+    ],
+    apple: [{ url: SITE_APPLE_ICON_PATH, sizes: "180x180", type: "image/png" }],
+    shortcut: [SITE_FAVICON_PATH],
   },
   manifest: "/manifest.webmanifest",
   alternates: {

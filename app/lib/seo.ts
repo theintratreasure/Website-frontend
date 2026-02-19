@@ -3,6 +3,10 @@ import type { Metadata } from "next";
 export const SITE_URL = "https://www.alstrades.com";
 export const SITE_NAME = "ALS Trades";
 export const SITE_LOGO_PATH = "/icon.png";
+export const SITE_FAVICON_PATH = "/favicon.ico";
+export const SITE_FAVICON_32_PATH = "/favicon-32x32.png";
+export const SITE_FAVICON_16_PATH = "/favicon-16x16.png";
+export const SITE_APPLE_ICON_PATH = "/apple-touch-icon.png";
 export const DEFAULT_OG_IMAGE_PATH = "/opengraph-image";
 export const DEFAULT_TWITTER_IMAGE_PATH = "/twitter-image";
 export const DEFAULT_KEYWORD_COUNT = 120;
@@ -194,9 +198,13 @@ export function buildPageMetadata({
       images: [DEFAULT_TWITTER_IMAGE_PATH],
     },
     icons: {
-      icon: SITE_LOGO_PATH,
-      apple: SITE_LOGO_PATH,
-      shortcut: SITE_LOGO_PATH,
+      icon: [
+        { url: SITE_FAVICON_PATH, sizes: "any" },
+        { url: SITE_FAVICON_32_PATH, type: "image/png", sizes: "32x32" },
+        { url: SITE_FAVICON_16_PATH, type: "image/png", sizes: "16x16" },
+      ],
+      apple: [{ url: SITE_APPLE_ICON_PATH, sizes: "180x180", type: "image/png" }],
+      shortcut: [SITE_FAVICON_PATH],
     },
     robots: noindex
       ? {
