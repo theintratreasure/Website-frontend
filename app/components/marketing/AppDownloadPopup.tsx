@@ -219,7 +219,7 @@ export default function AppDownloadPopup() {
                       <span className="text-xs font-semibold text-[var(--secondary)]">APK Ready</span>
                     </button>
 
-                    <button
+                    {/* <button
                       type="button"
                       onClick={() => setSelectedPlatform("ios")}
                       disabled={deviceType !== "other"}
@@ -236,7 +236,7 @@ export default function AppDownloadPopup() {
                         iOS
                       </span>
                       <span className="text-xs font-semibold text-[var(--text-muted)]">Coming Soon</span>
-                    </button>
+                    </button> */}
                   </div>
 
                   <p className="mt-3 text-xs text-[var(--text-muted)]">
@@ -244,7 +244,7 @@ export default function AppDownloadPopup() {
                       ? "Android device detected."
                       : deviceType === "ios"
                         ? "iOS device detected."
-                        : "Select your platform."}
+                        : ""}
                   </p>
                 </div>
 
