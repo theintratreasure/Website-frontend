@@ -91,8 +91,8 @@ const CHILD_ICONS: Record<string, React.ComponentType<{ size?: number; className
 };
 
 const ACTION_LINKS = [
-  { label: "Log in", href: "https://user.fptrades.com/login" },
-  { label: "Open Account", href: "https://user.fptrades.com/signup" },
+  { label: "Log in", href: "https://user.fptradess.com/login" },
+  { label: "Open Account", href: "https://user.fptradess.com/signup" },
 ] as const;
 
 export default function Navbar() {

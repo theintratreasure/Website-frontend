@@ -28,7 +28,7 @@ export default function PartnersPage() {
         title="Partners"
         description="Explore our affiliate and introducing broker partnership models with transparent reward plans."
         primaryLabel="Open Account"
-        primaryHref="https://user.fptrades.com/signup"
+        primaryHref="https://user.fptradess.com/signup"
         imageSrc="https://images.unsplash.com/photo-1681505531034-8d67054e07f6?auto=format&fit=crop&w=1800&q=80"
         imageAlt="Two people shaking hands over a document"
       />

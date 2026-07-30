@@ -168,7 +168,7 @@ export function TradingAccountPageView() {
               Choose an account architecture aligned with your strategy depth, trade frequency, and risk posture.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="https://user.fptrades.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)]">
+              <Link href="https://user.fptradess.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)]">
                 Open Account
               </Link>
               <Link href="/trading/condition" className="rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)]">
@@ -278,8 +278,8 @@ export function TradingPlatformPageView() {
           />
           <p className="mt-5 max-w-3xl text-sm text-[#cde5e8] sm:text-base">One secure environment for charting, order routing, watchlists, and risk control.</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="https://user.fptrades.com/login" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-white px-5 py-3 text-sm font-semibold text-[#0f2a2e]">Launch Platform</Link>
-            <Link href="https://user.fptrades.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-white/30 px-5 py-3 text-sm font-semibold text-white">Open Account</Link>
+            <Link href="https://user.fptradess.com/login" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-white px-5 py-3 text-sm font-semibold text-[#0f2a2e]">Launch Platform</Link>
+            <Link href="https://user.fptradess.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-white/30 px-5 py-3 text-sm font-semibold text-white">Open Account</Link>
           </div>
         </motion.div>
       </section>
@@ -387,7 +387,7 @@ export function TradingConditionPageView() {
           <h3 className="text-2xl font-bold text-[var(--foreground)]">Condition governance you can audit</h3>
           <p className="mt-3 max-w-3xl text-[var(--text-muted)]">All major cost and execution controls are visible before and after trading.</p>
           <div className="mt-5 flex flex-wrap gap-3">
-            <Link href="https://user.fptrades.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)]">Open Account</Link>
+            <Link href="https://user.fptradess.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)]">Open Account</Link>
             <Link href="/contact" className="rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)]">Contact Desk</Link>
           </div>
         </motion.div>

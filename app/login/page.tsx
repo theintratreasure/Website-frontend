@@ -28,7 +28,7 @@ export default function LoginPage() {
         title="Log in"
         description="Securely access your trading dashboard, manage funds, and monitor open positions from one place."
         primaryLabel="Open Account"
-        primaryHref="https://user.fptrades.com/signup"
+        primaryHref="https://user.fptradess.com/signup"
         imageSrc="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1800&q=80"
         imageAlt="Trader using a laptop"
       />

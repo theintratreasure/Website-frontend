@@ -28,7 +28,7 @@ export default function AccountsPage() {
         title="Accounts"
         description="Compare account types, leverage options, execution models, and platform features for your strategy."
         primaryLabel="Open Account"
-        primaryHref="https://user.fptrades.com/signup"
+        primaryHref="https://user.fptradess.com/signup"
         imageSrc="https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=1800&q=80"
         imageAlt="Fan of US dollar banknotes"
       />

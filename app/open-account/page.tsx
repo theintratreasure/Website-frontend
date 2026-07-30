@@ -28,7 +28,7 @@ export default function OpenAccountPage() {
         title="Open Account"
         description="Create your live trading profile, complete verification, and get platform access in minutes."
         primaryLabel="Log in"
-        primaryHref="https://user.fptrades.com/login"
+        primaryHref="https://user.fptradess.com/login"
         imageSrc="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1800&q=80"
         imageAlt="Person standing near stairs"
       />

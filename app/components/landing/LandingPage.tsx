@@ -386,7 +386,7 @@ export default function LandingPage() {
               active traders can execute with confidence across sessions.
             </p>
             <Link
-              href="https://user.fptrades.com/signup"
+              href="https://user.fptradess.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)] sm:w-auto"
@@ -487,7 +487,7 @@ export default function LandingPage() {
             viewport={{ once: true, amount: 0.35 }}
           >
             <Link
-              href="https://user.fptrades.com/signup"
+              href="https://user.fptradess.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)] sm:w-auto"
@@ -587,7 +587,7 @@ export default function LandingPage() {
             viewport={{ once: true, amount: 0.35 }}
           >
             <Link
-              href="https://user.fptrades.com/signup"
+              href="https://user.fptradess.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)] sm:w-auto"
@@ -812,7 +812,7 @@ export default function LandingPage() {
               viewport={{ once: true, amount: 0.4 }}
             >
               <Link
-                href="https://user.fptrades.com/signup"
+                href="https://user.fptradess.com/signup"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)] sm:w-auto"
@@ -889,7 +889,7 @@ export default function LandingPage() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              href="https://user.fptrades.com/signup"
+              href="https://user.fptradess.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)] sm:w-auto"
@@ -897,7 +897,7 @@ export default function LandingPage() {
               Get Started <ChevronRight size={16} />
             </Link>
             <Link
-              href="https://user.fptrades.com/login"
+              href="https://user.fptradess.com/login"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)] sm:w-auto"
