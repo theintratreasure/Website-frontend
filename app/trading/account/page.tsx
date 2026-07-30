@@ -4,9 +4,9 @@ import PageStructuredData from "../../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../../lib/seo";
 
 const PAGE_SEO = {
-  title: "Trading Account Details | ALS Trades",
+  title: "Trading Account Details | FP Trades",
   description:
-    "Review ALS Trades trading account structures, pricing profiles and account setup flow for professional market participation.",
+    "Review FP Trades trading account structures, pricing profiles and account setup flow for professional market participation.",
   path: "/trading/account",
   pageKeywords: [
     "trading account details",
@@ -14,7 +14,7 @@ const PAGE_SEO = {
     "broker account setup",
     "multi asset account specs",
     "pricing and leverage profile",
-    "als trades account overview",
+    "FP Trades account overview",
   ],
 } as const;
 

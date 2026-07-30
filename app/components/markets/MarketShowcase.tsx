@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -236,7 +236,7 @@ export default function MarketShowcase(props: MarketShowcaseProps) {
 
             <div className="mt-7 flex flex-wrap gap-2.5 min-[380px]:gap-3">
               <Link
-                href="https://user.alstrades.com/signup"
+                href="https://user.fptrades.com/signup"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-4 py-2.5 text-xs font-semibold text-[var(--card-bg)] min-[380px]:px-5 min-[380px]:text-sm"
@@ -244,7 +244,7 @@ export default function MarketShowcase(props: MarketShowcaseProps) {
                 Open Account <ArrowRight size={14} />
               </Link>
               <Link
-                href="https://user.alstrades.com/login"
+                href="https://user.fptrades.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl border border-[var(--card-border)] px-4 py-2.5 text-xs font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)] min-[380px]:px-5 min-[380px]:text-sm"
@@ -276,7 +276,7 @@ export default function MarketShowcase(props: MarketShowcaseProps) {
                   <p className="mt-1 text-sm font-semibold text-[var(--foreground)] min-[380px]:text-base">{item.name}</p>
                   <p className="mt-1 text-[11px] text-[var(--text-muted)] min-[380px]:text-xs">{item.note}</p>
                   <Link
-                    href="https://user.alstrades.com/signup"
+                    href="https://user.fptrades.com/signup"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 inline-flex items-center gap-1 text-[11px] font-semibold text-[var(--secondary)] hover:text-[var(--primary)] min-[380px]:mt-3 min-[380px]:text-xs"
@@ -411,7 +411,7 @@ export default function MarketShowcase(props: MarketShowcaseProps) {
 
           <div className="mt-6 flex flex-wrap gap-2.5 min-[380px]:gap-3">
             <Link
-              href="https://user.alstrades.com/signup"
+              href="https://user.fptrades.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-4 py-2.5 text-xs font-semibold text-[var(--card-bg)] min-[380px]:px-5 min-[380px]:text-sm"

@@ -4,9 +4,9 @@ import PageStructuredData from "../../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../../lib/seo";
 
 const PAGE_SEO = {
-  title: "Indexes Market Trading | ALS Trades",
+  title: "Indexes Market Trading | FP Trades",
   description:
-    "Trade global index markets with ALS Trades and capture macro trends across US, Europe and Asia benchmark indices.",
+    "Trade global index markets with FP Trades and capture macro trends across US, Europe and Asia benchmark indices.",
   path: "/markets/indexes",
   pageKeywords: [
     "indexes market",
@@ -31,7 +31,7 @@ export default function Page() {
         badge="Global Index Arena"
         title="Trade Index Trends Through A Macro-Focused Lens"
         subtitle="Take directional exposure to major economies without stock-by-stock complexity."
-        intro="Index products compress broad market behavior into tradable instruments. ALS Trades enables you to capture regional momentum and macro sentiment with efficient execution and clear pricing visibility."
+        intro="Index products compress broad market behavior into tradable instruments. FP Trades enables you to capture regional momentum and macro sentiment with efficient execution and clear pricing visibility."
         heroImageSrc="https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=2400&q=80"
         heroImageAlt="Newspaper on a table"
         symbolsTitle="Benchmark Index Contracts"

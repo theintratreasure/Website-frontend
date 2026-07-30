@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-[var(--card-border)] bg-[var(--card-bg)]">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-4 px-4 py-8 sm:px-6 md:flex-row md:items-center md:justify-between">
-        <p className="text-sm text-[var(--text-muted)]">© 2026 ALS Trades. All rights reserved.</p>
+        <p className="text-sm text-[var(--text-muted)]">© 2026 FP Trades. All rights reserved.</p>
         <nav className="flex flex-wrap items-center gap-4 text-sm">
           {footerLinks.map(({ label, href, Icon }) => (
             <Link

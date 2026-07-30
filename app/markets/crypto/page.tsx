@@ -4,9 +4,9 @@ import PageStructuredData from "../../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../../lib/seo";
 
 const PAGE_SEO = {
-  title: "Crypto Market Trading | ALS Trades",
+  title: "Crypto Market Trading | FP Trades",
   description:
-    "Trade crypto markets on ALS Trades with fast execution, transparent trading conditions and structured risk controls.",
+    "Trade crypto markets on FP Trades with fast execution, transparent trading conditions and structured risk controls.",
   path: "/markets/crypto",
   pageKeywords: [
     "crypto market",
@@ -31,7 +31,7 @@ export default function Page() {
         badge="Digital Asset Desk"
         title="Capture Crypto Momentum With Disciplined Control"
         subtitle="Trade leading digital pairs using a structure built for speed and risk clarity."
-        intro="Crypto markets move in fast cycles driven by liquidity, sentiment, and catalysts. ALS Trades helps you respond faster with transparent execution, resilient infrastructure, and tools designed for controlled volatility participation."
+        intro="Crypto markets move in fast cycles driven by liquidity, sentiment, and catalysts. FP Trades helps you respond faster with transparent execution, resilient infrastructure, and tools designed for controlled volatility participation."
         heroImageSrc="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=2400&q=80"
         heroImageAlt="Trader using a laptop"
         symbolsTitle="High-Interest Crypto Pairs"
@@ -61,7 +61,7 @@ export default function Page() {
           { label: "Execution", value: "Low-Latency", detail: "Fast order acknowledgment and fills" },
           { label: "Risk Controls", value: "Multi-Layer", detail: "Position and exposure safeguards" },
         ]}
-        edgeTitle="Why ALS Trades Fits Modern Crypto Workflows"
+        edgeTitle="Why FP Trades Fits Modern Crypto Workflows"
         edgeCards={[
           {
             title: "Event-Responsive Infrastructure",

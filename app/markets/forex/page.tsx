@@ -4,9 +4,9 @@ import PageStructuredData from "../../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../../lib/seo";
 
 const PAGE_SEO = {
-  title: "Forex Market Trading | ALS Trades",
+  title: "Forex Market Trading | FP Trades",
   description:
-    "Trade the forex market with ALS Trades across major and minor currency pairs, low-latency execution and transparent pricing tools.",
+    "Trade the forex market with FP Trades across major and minor currency pairs, low-latency execution and transparent pricing tools.",
   path: "/markets/forex",
   pageKeywords: [
     "forex market",
@@ -31,7 +31,7 @@ export default function Page() {
         badge="Forex Liquidity Hub"
         title="Master Global FX Flow With Institutional Execution"
         subtitle="Trade 45+ currency pairs with competitive pricing and reliable low-latency routing."
-        intro="FX never truly sleeps. ALS Trades connects your strategy to deep liquidity venues so you can execute across London, New York, and Asia with consistent speed, cleaner fills, and stronger control in fast sessions."
+        intro="FX never truly sleeps. FP Trades connects your strategy to deep liquidity venues so you can execute across London, New York, and Asia with consistent speed, cleaner fills, and stronger control in fast sessions."
         heroImageSrc="https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=2400&q=80"
         heroImageAlt="Fan of US dollar banknotes"
         symbolsTitle="Active Forex Universe"

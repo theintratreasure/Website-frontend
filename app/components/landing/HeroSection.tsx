@@ -141,7 +141,7 @@ export default function HeroSection() {
             className="glass rounded-3xl p-5 shadow-[0_24px_48px_-34px_var(--shadow-color)] sm:p-8"
           >
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--primary)]">
-              ALS Trades Platform
+              FP Trades Platform
             </p>
             <h1 className="mt-4 text-[28px] font-black leading-tight text-[var(--foreground)] sm:text-5xl">
               Trade Global Markets
@@ -170,7 +170,7 @@ export default function HeroSection() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
-                href="https://user.alstrades.com/signup"
+                href="https://user.fptrades.com/signup"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex w-full items-center justify-center rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-6 py-3 text-sm font-semibold text-[var(--card-bg)] sm:w-auto"

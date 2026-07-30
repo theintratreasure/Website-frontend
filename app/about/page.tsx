@@ -4,12 +4,12 @@ import PageStructuredData from "../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../lib/seo";
 
 const PAGE_SEO = {
-  title: "About ALS Trades | Professional Multi-Asset Trading Company",
+  title: "About FP Trades | Professional Multi-Asset Trading Company",
   description:
-    "Learn about ALS Trades, our trading philosophy, platform reliability, execution standards and commitment to transparent client-focused operations.",
+    "Learn about FP Trades, our trading philosophy, platform reliability, execution standards and commitment to transparent client-focused operations.",
   path: "/about",
   pageKeywords: [
-    "about als trades",
+    "about FP Trades",
     "trading company profile",
     "broker mission and vision",
     "transparent brokerage company",

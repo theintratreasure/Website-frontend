@@ -6,7 +6,7 @@ import PageStructuredData from "../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../lib/seo";
 
 const PAGE_SEO = {
-  title: "Economic Calendar | ALS Trades",
+  title: "Economic Calendar | FP Trades",
   description: "Track live macroeconomic events with a real-time calendar view designed for active traders.",
   path: "/economic-calendar",
   pageKeywords: [

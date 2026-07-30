@@ -42,7 +42,7 @@ export default function SimplePage({
       <section className="grid w-full gap-6 rounded-3xl border border-[var(--card-border)] bg-[var(--card-bg)] p-6 shadow-[0_20px_40px_-28px_var(--shadow-color)] sm:p-10 lg:grid-cols-[1fr_0.9fr] lg:items-stretch">
         <div className="flex flex-col">
           <p className="inline-flex w-fit rounded-full bg-[var(--hover-bg)] px-3 py-1 text-xs font-semibold uppercase tracking-wide text-[var(--primary)]">
-            ALS Trades
+            FP Trades
           </p>
           <h1 className="mt-4 text-3xl font-bold text-[var(--foreground)] sm:text-4xl">{title}</h1>
           <TypewriterAccent lines={accentLines} className="mt-3 text-sm font-semibold" />

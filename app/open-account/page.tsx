@@ -4,12 +4,12 @@ import PageStructuredData from "../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../lib/seo";
 
 const PAGE_SEO = {
-  title: "Open Account | ALS Trades Signup",
+  title: "Open Account | FP Trades Signup",
   description:
-    "Open your ALS Trades account to start trading forex, crypto, indexes and metals with a fast and secure onboarding process.",
+    "Open your FP Trades account to start trading forex, crypto, indexes and metals with a fast and secure onboarding process.",
   path: "/open-account",
   pageKeywords: [
-    "open als trades account",
+    "open FP Trades account",
     "trading account signup",
     "forex account registration",
     "broker account opening",
@@ -28,7 +28,7 @@ export default function OpenAccountPage() {
         title="Open Account"
         description="Create your live trading profile, complete verification, and get platform access in minutes."
         primaryLabel="Log in"
-        primaryHref="https://user.alstrades.com/login"
+        primaryHref="https://user.fptrades.com/login"
         imageSrc="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1800&q=80"
         imageAlt="Person standing near stairs"
       />

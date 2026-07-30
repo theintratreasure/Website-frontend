@@ -29,15 +29,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "ALS Trades | Forex, Crypto, Indexes and Metals Trading Platform",
+    default: "FP Trades | Forex, Crypto, Indexes and Metals Trading Platform",
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "ALS Trades provides a professional multi-asset trading experience across forex, crypto, indexes, and metals with transparent pricing and reliable execution.",
+    "FP Trades provides a professional multi-asset trading experience across forex, crypto, indexes, and metals with transparent pricing and reliable execution.",
   applicationName: SITE_NAME,
   keywords: buildKeywordSet(
     [
-      "als trades homepage",
+      "FP Trades homepage",
       "forex crypto indexes metals",
       "online trading website",
       "global trading platform",
@@ -62,9 +62,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "ALS Trades | Forex, Crypto, Indexes and Metals Trading Platform",
+    title: "FP Trades | Forex, Crypto, Indexes and Metals Trading Platform",
     description:
-      "Trade global markets with ALS Trades using a fast, transparent and professional trading environment.",
+      "Trade global markets with FP Trades using a fast, transparent and professional trading environment.",
     url: SITE_URL,
     siteName: SITE_NAME,
     locale: "en_US",
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ALS Trades | Multi-Asset Trading Platform",
+    title: "FP Trades | Multi-Asset Trading Platform",
     description: "Forex, crypto, index and metal markets with professional execution and clear pricing.",
     images: [DEFAULT_OG_IMAGE_PATH],
   },

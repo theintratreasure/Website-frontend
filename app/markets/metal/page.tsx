@@ -4,9 +4,9 @@ import PageStructuredData from "../../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../../lib/seo";
 
 const PAGE_SEO = {
-  title: "Metal Market Trading | ALS Trades",
+  title: "Metal Market Trading | FP Trades",
   description:
-    "Trade metal markets including gold and silver with ALS Trades using transparent pricing and stable execution across volatile sessions.",
+    "Trade metal markets including gold and silver with FP Trades using transparent pricing and stable execution across volatile sessions.",
   path: "/markets/metal",
   pageKeywords: [
     "metal market",
@@ -31,7 +31,7 @@ export default function Page() {
         badge="Precious Metals Desk"
         title="Trade Metals With Defensive Strength And Tactical Speed"
         subtitle="Position in gold and related metals using a transparent execution framework."
-        intro="Metal markets remain central for inflation hedging and risk balancing. ALS Trades gives you robust access to precious instruments with efficient fills, clear cost visibility, and platform stability for high-impact moments."
+        intro="Metal markets remain central for inflation hedging and risk balancing. FP Trades gives you robust access to precious instruments with efficient fills, clear cost visibility, and platform stability for high-impact moments."
         heroImageSrc="https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=2400&q=80"
         heroImageAlt="Gold bar tooling and metal surfaces"
         symbolsTitle="Key Metal Instruments"
@@ -61,7 +61,7 @@ export default function Page() {
           { label: "Market Drivers", value: "Macro", detail: "Rates, inflation, and global risk sentiment" },
           { label: "Execution Layer", value: "Pro", detail: "Stable routing and order management" },
         ]}
-        edgeTitle="ALS Trades Advantage In Metals"
+        edgeTitle="FP Trades Advantage In Metals"
         edgeCards={[
           {
             title: "Defensive Allocation Access",

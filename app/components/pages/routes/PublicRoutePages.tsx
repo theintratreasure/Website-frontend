@@ -168,7 +168,7 @@ export function TradingAccountPageView() {
               Choose an account architecture aligned with your strategy depth, trade frequency, and risk posture.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="https://user.alstrades.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)]">
+              <Link href="https://user.fptrades.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)]">
                 Open Account
               </Link>
               <Link href="/trading/condition" className="rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)]">
@@ -278,8 +278,8 @@ export function TradingPlatformPageView() {
           />
           <p className="mt-5 max-w-3xl text-sm text-[#cde5e8] sm:text-base">One secure environment for charting, order routing, watchlists, and risk control.</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="https://user.alstrades.com/login" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-white px-5 py-3 text-sm font-semibold text-[#0f2a2e]">Launch Platform</Link>
-            <Link href="https://user.alstrades.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-white/30 px-5 py-3 text-sm font-semibold text-white">Open Account</Link>
+            <Link href="https://user.fptrades.com/login" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-white px-5 py-3 text-sm font-semibold text-[#0f2a2e]">Launch Platform</Link>
+            <Link href="https://user.fptrades.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-white/30 px-5 py-3 text-sm font-semibold text-white">Open Account</Link>
           </div>
         </motion.div>
       </section>
@@ -387,7 +387,7 @@ export function TradingConditionPageView() {
           <h3 className="text-2xl font-bold text-[var(--foreground)]">Condition governance you can audit</h3>
           <p className="mt-3 max-w-3xl text-[var(--text-muted)]">All major cost and execution controls are visible before and after trading.</p>
           <div className="mt-5 flex flex-wrap gap-3">
-            <Link href="https://user.alstrades.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)]">Open Account</Link>
+            <Link href="https://user.fptrades.com/signup" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)]">Open Account</Link>
             <Link href="/contact" className="rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)]">Contact Desk</Link>
           </div>
         </motion.div>
@@ -507,9 +507,9 @@ export function AboutPageView() {
         </motion.div>
         <motion.div {...fadeIn} className="glass relative rounded-3xl p-6 shadow-[0_22px_40px_-30px_var(--shadow-color)] sm:p-8">
           <SectionHeader
-            eyebrow="About ALS Trades"
+            eyebrow="About FP Trades"
             title="A broker built for disciplined traders and long-term confidence"
-            description="ALS Trades combines performance infrastructure with governance-focused operations to support stable execution outcomes."
+            description="FP Trades combines performance infrastructure with governance-focused operations to support stable execution outcomes."
           />
         </motion.div>
       </section>
@@ -581,7 +581,7 @@ export function ReviewsPageView() {
         <motion.div {...fadeIn} className="mb-8">
           <SectionHeader
             eyebrow="Client Reviews"
-            title="What traders value most about ALS Trades"
+            title="What traders value most about FP Trades"
             description="Client feedback centers on execution reliability and service accountability."
           />
         </motion.div>
@@ -699,7 +699,7 @@ export function ContactPageView() {
 
       <section className="relative mx-auto w-full max-w-7xl px-4 py-14 sm:px-6">
         <motion.div {...fadeIn} className="mb-9 max-w-4xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">Contact ALS Trades</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">Contact FP Trades</p>
           <h1 className="mt-3 text-4xl font-black text-[var(--foreground)] sm:text-5xl">Talk to a real specialist, not a generic support queue.</h1>
           <TypewriterAccent
             lines={["Direct desk routing", "Response clarity", "Specialist support"]}
@@ -712,7 +712,7 @@ export function ContactPageView() {
 
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { icon: Mail, title: "Email", value: "support@ALS Trades.com" },
+            { icon: Mail, title: "Email", value: "support@FP Trades.com" },
             { icon: Phone, title: "Phone", value: "+1 (312) 555-0148" },
             { icon: MapPin, title: "Office", value: "Chicago, Illinois, USA" },
             { icon: Headphones, title: "Support Hours", value: "24/5 Active Desk" },

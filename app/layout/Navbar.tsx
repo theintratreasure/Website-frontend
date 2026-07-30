@@ -91,8 +91,8 @@ const CHILD_ICONS: Record<string, React.ComponentType<{ size?: number; className
 };
 
 const ACTION_LINKS = [
-  { label: "Log in", href: "https://user.alstrades.com/login" },
-  { label: "Open Account", href: "https://user.alstrades.com/signup" },
+  { label: "Log in", href: "https://user.fptrades.com/login" },
+  { label: "Open Account", href: "https://user.fptrades.com/signup" },
 ] as const;
 
 export default function Navbar() {
@@ -125,15 +125,15 @@ export default function Navbar() {
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-2 px-3 py-3 sm:px-4 md:px-6">
         <Link href="/" className="flex min-w-0 items-center gap-2" onClick={() => setMenuOpen(false)}>
           <Image
-            src="/icon.png"
-            alt="ALS Trades"
+            src="/fp-logo.png"
+            alt="FP Trades"
             width={36}
             height={36}
             className="h-9 w-9 shrink-0 rounded-lg object-cover"
             priority
           />
           <span className="truncate text-base font-bold text-[var(--foreground)] sm:text-lg max-[420px]:hidden">
-            ALS Trades
+            FP Trades
           </span>
         </Link>
 

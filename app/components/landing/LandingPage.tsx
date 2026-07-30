@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -382,11 +382,11 @@ export default function LandingPage() {
               Market-ready conditions built for strategy consistency.
             </h2>
             <p className="mt-4 max-w-3xl text-[15px] text-[var(--text-muted)] sm:text-base">
-              ALS Trades combines tight pricing logic, transparent cost visibility, and reliable order handling so
+              FP Trades combines tight pricing logic, transparent cost visibility, and reliable order handling so
               active traders can execute with confidence across sessions.
             </p>
             <Link
-              href="https://user.alstrades.com/signup"
+              href="https://user.fptrades.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)] sm:w-auto"
@@ -414,9 +414,9 @@ export default function LandingPage() {
 
       <section className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 sm:py-16">
         <motion.div {...reveal} className="mb-10 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--primary)] sm:text-sm">Why ALS Trades</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--primary)] sm:text-sm">Why FP Trades</p>
           <h2 className="mt-3 text-[22px] font-bold leading-snug text-[var(--foreground)] sm:text-4xl">
-            Why serious traders choose ALS Trades
+            Why serious traders choose FP Trades
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-[15px] text-[var(--text-muted)] sm:text-base">
             A high-performance ecosystem where pricing transparency, deep liquidity, and execution confidence work together.
@@ -487,7 +487,7 @@ export default function LandingPage() {
             viewport={{ once: true, amount: 0.35 }}
           >
             <Link
-              href="https://user.alstrades.com/signup"
+              href="https://user.fptrades.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)] sm:w-auto"
@@ -587,7 +587,7 @@ export default function LandingPage() {
             viewport={{ once: true, amount: 0.35 }}
           >
             <Link
-              href="https://user.alstrades.com/signup"
+              href="https://user.fptrades.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)] sm:w-auto"
@@ -707,7 +707,7 @@ export default function LandingPage() {
             viewport={{ once: true, amount: 0.4 }}
             className="mt-3 max-w-4xl text-[22px] font-bold text-[var(--foreground)] sm:text-4xl"
           >
-            Advance your edge with ALS Trades Navigator intelligence.
+            Advance your edge with FP Trades Navigator intelligence.
           </motion.h2>
           <motion.p
             initial={prefersReducedMotion ? false : { opacity: 0, y: 14 }}
@@ -812,7 +812,7 @@ export default function LandingPage() {
               viewport={{ once: true, amount: 0.4 }}
             >
               <Link
-                href="https://user.alstrades.com/signup"
+                href="https://user.fptrades.com/signup"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)] sm:w-auto"
@@ -889,7 +889,7 @@ export default function LandingPage() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              href="https://user.alstrades.com/signup"
+              href="https://user.fptrades.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[linear-gradient(90deg,var(--secondary),var(--primary))] px-5 py-3 text-sm font-semibold text-[var(--card-bg)] sm:w-auto"
@@ -897,7 +897,7 @@ export default function LandingPage() {
               Get Started <ChevronRight size={16} />
             </Link>
             <Link
-              href="https://user.alstrades.com/login"
+              href="https://user.fptrades.com/login"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-[var(--card-border)] px-5 py-3 text-sm font-semibold text-[var(--foreground)] hover:bg-[var(--hover-bg)] sm:w-auto"

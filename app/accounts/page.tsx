@@ -4,12 +4,12 @@ import PageStructuredData from "../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../lib/seo";
 
 const PAGE_SEO = {
-  title: "Trading Accounts | ALS Trades",
+  title: "Trading Accounts | FP Trades",
   description:
-    "Compare ALS Trades account types, features, leverage structures and execution options to choose the account that fits your trading style.",
+    "Compare FP Trades account types, features, leverage structures and execution options to choose the account that fits your trading style.",
   path: "/accounts",
   pageKeywords: [
-    "als trades accounts",
+    "FP Trades accounts",
     "forex trading account types",
     "open online trading account",
     "professional trading account",
@@ -28,7 +28,7 @@ export default function AccountsPage() {
         title="Accounts"
         description="Compare account types, leverage options, execution models, and platform features for your strategy."
         primaryLabel="Open Account"
-        primaryHref="https://user.alstrades.com/signup"
+        primaryHref="https://user.fptrades.com/signup"
         imageSrc="https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=1800&q=80"
         imageAlt="Fan of US dollar banknotes"
       />
