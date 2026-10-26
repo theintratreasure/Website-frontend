@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const SITE_URL = "https://www.fptradess.com";
 export const SITE_NAME = "FP Tradess";
-export const SITE_LOGO_PATH = "/icon.png";
+export const SITE_LOGO_PATH = "/fp-logo.png";
 export const SITE_FAVICON_PATH = "/favicon.ico";
 export const SITE_FAVICON_32_PATH = "/favicon-32x32.png";
 export const SITE_FAVICON_16_PATH = "/favicon-16x16.png";

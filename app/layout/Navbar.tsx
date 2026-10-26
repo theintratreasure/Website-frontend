@@ -125,11 +125,11 @@ export default function Navbar() {
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-2 px-3 py-3 sm:px-4 md:px-6">
         <Link href="/" className="flex min-w-0 items-center gap-2" onClick={() => setMenuOpen(false)}>
           <Image
-            src="/icon.png"
+            src="/fp-logo.png"
             alt="FP Tradess"
-            width={36}
-            height={36}
-            className="h-9 w-9 shrink-0 rounded-lg object-cover"
+            width={44}
+            height={44}
+            className="h-11 w-11 shrink-0 rounded-xl object-cover"
             priority
           />
           <span className="truncate text-base font-bold text-[var(--foreground)] sm:text-lg max-[420px]:hidden">
