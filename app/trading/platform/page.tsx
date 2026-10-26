@@ -4,9 +4,9 @@ import PageStructuredData from "../../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../../lib/seo";
 
 const PAGE_SEO = {
-  title: "Trading Platform | ALS Trades",
+  title: "Trading Platform | FP Tradess",
   description:
-    "Explore the ALS Trades trading platform with multi-device access, execution tools, charting capabilities and risk controls.",
+    "Explore the FP Tradess trading platform with multi-device access, execution tools, charting capabilities and risk controls.",
   path: "/trading/platform",
   pageKeywords: [
     "trading platform",

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
-export const SITE_URL = "https://www.alstrades.com";
-export const SITE_NAME = "ALS Trades";
+export const SITE_URL = "https://www.fptradess.com";
+export const SITE_NAME = "FP Tradess";
 export const SITE_LOGO_PATH = "/icon.png";
 export const SITE_FAVICON_PATH = "/favicon.ico";
 export const SITE_FAVICON_32_PATH = "/favicon-32x32.png";
@@ -12,8 +12,8 @@ export const DEFAULT_TWITTER_IMAGE_PATH = "/twitter-image";
 export const DEFAULT_KEYWORD_COUNT = 120;
 
 const GLOBAL_SEED_KEYWORDS = [
-  "als trades",
-  "als trades official website",
+  "fp tradess",
+  "fp tradess official website",
   "online trading",
   "forex broker",
   "forex trading platform",

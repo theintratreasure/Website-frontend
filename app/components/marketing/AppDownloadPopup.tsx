@@ -149,7 +149,7 @@ export default function AppDownloadPopup() {
                   <h3 className="mt-3 text-2xl font-black leading-tight text-[var(--foreground)] sm:text-3xl">
                     Trade faster on
                     <span className="block bg-[linear-gradient(90deg,var(--secondary),var(--primary))] bg-clip-text text-transparent">
-                      ALS Mobile
+                      FP Tradess
                     </span>
                   </h3>
                   <p className="mt-3 text-sm text-[var(--text-muted)] sm:text-base">

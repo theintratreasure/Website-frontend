@@ -4,9 +4,9 @@ import PageStructuredData from "../../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../../lib/seo";
 
 const PAGE_SEO = {
-  title: "Market Time Sessions | ALS Trades",
+  title: "Market Time Sessions | FP Tradess",
   description:
-    "Track global trading sessions and market time windows with ALS Trades to improve timing, liquidity awareness and execution decisions.",
+    "Track global trading sessions and market time windows with FP Tradess to improve timing, liquidity awareness and execution decisions.",
   path: "/trading/market-time",
   pageKeywords: [
     "market time",

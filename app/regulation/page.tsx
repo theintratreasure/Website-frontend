@@ -4,12 +4,12 @@ import PageStructuredData from "../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../lib/seo";
 
 const PAGE_SEO = {
-  title: "Regulation and Compliance | ALS Trades",
+  title: "Regulation and Compliance | FP Tradess",
   description:
-    "Review ALS Trades compliance framework, governance standards and operational controls designed to protect client trust and transparency.",
+    "Review FP Tradess compliance framework, governance standards and operational controls designed to protect client trust and transparency.",
   path: "/regulation",
   pageKeywords: [
-    "als trades regulation",
+    "fp tradess regulation",
     "broker compliance policy",
     "trading governance standards",
     "client protection framework",

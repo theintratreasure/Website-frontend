@@ -4,12 +4,12 @@ import PageStructuredData from "../components/seo/PageStructuredData";
 import { buildPageMetadata } from "../lib/seo";
 
 const PAGE_SEO = {
-  title: "ALS Trades Reviews | Trader Feedback and Platform Experience",
+  title: "FP Tradess Reviews | Trader Feedback and Platform Experience",
   description:
-    "Read ALS Trades reviews and trader feedback covering execution quality, platform reliability, account services and market access.",
+    "Read FP Tradess reviews and trader feedback covering execution quality, platform reliability, account services and market access.",
   path: "/reviews",
   pageKeywords: [
-    "als trades reviews",
+    "fp tradess reviews",
     "trader testimonials",
     "forex broker feedback",
     "platform performance reviews",

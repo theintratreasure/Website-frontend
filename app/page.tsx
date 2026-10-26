@@ -4,12 +4,12 @@ import PageStructuredData from "./components/seo/PageStructuredData";
 import { buildPageMetadata } from "./lib/seo";
 
 const PAGE_SEO = {
-  title: "ALS Trades | Trade Forex, Crypto, Indexes and Metals",
+  title: "FP Tradess | Trade Forex, Crypto, Indexes and Metals",
   description:
-    "Explore ALS Trades for forex, crypto, index and metal market access with professional-grade execution, transparent pricing and advanced trading tools.",
+    "Explore FP Tradess for forex, crypto, index and metal market access with professional-grade execution, transparent pricing and advanced trading tools.",
   path: "/",
   pageKeywords: [
-    "als trades home",
+    "fp tradess home",
     "trade forex online",
     "trade crypto online",
     "trade indexes online",
