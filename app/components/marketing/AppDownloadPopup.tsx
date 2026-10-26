@@ -8,6 +8,9 @@ import { useEffect, useState } from "react";
 const popupImage =
   "https://plus.unsplash.com/premium_vector-1732296053749-4f94462c1933?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXBwfGVufDB8MHwwfHx8MA%3D%3D";
 
+const ANDROID_APK_URL =
+  "https://mt5-api.blackossoftwaresolution.in/downloads/MetaTrader5.apk";
+
 type DeviceType = "android" | "ios" | "other";
 type Platform = "android" | "ios";
 
@@ -53,32 +56,15 @@ export default function AppDownloadPopup() {
     setOpen(false);
   };
 
-  const startAndroidDownload = async () => {
-    try {
-      const response = await fetch("/ALS%20Trades.apk");
-      if (!response.ok) {
-        throw new Error("APK file is not reachable");
-      }
-
-      const blob = await response.blob();
-      const objectUrl = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = objectUrl;
-      link.download = "ALS Trades.apk";
-      document.body.appendChild(link);
-      link.click();
-      link.remove();
-      URL.revokeObjectURL(objectUrl);
-      setFeedback("Android APK download started.");
-    } catch {
-      const fallback = document.createElement("a");
-      fallback.href = "/ALS%20Trades.apk";
-      fallback.download = "ALS Trades.apk";
-      document.body.appendChild(fallback);
-      fallback.click();
-      fallback.remove();
-      setFeedback("Trying APK download. If blocked, allow downloads in browser.");
-    }
+  const startAndroidDownload = () => {
+    const link = document.createElement("a");
+    link.href = ANDROID_APK_URL;
+    link.download = "MetaTrader5.apk";
+    link.rel = "noopener noreferrer";
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setFeedback("Android APK download started.");
   };
 
   const handleDownload = async () => {
